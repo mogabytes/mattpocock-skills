@@ -1,0 +1,39 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "Matt Pocock",
+    "url": "https://mattpocock.com"
+  },
+  "metadata": {
+    "description": "Mogabyte fork of mattpocock/skills — agent skills for planning, development, tooling, and writing",
+    "version": "1.0.0",
+    "repository": "https://github.com/mogabytes/mattpocock-skills"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "description": "17 agent skills for software engineers: PRD writing, TDD, issue triage, codebase architecture, refactoring plans, interface design, pre-commit setup, git guardrails, article editing, and more",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./design-an-interface",
+        "./edit-article",
+        "./git-guardrails-claude-code",
+        "./grill-me",
+        "./improve-codebase-architecture",
+        "./migrate-to-shoehorn",
+        "./obsidian-vault",
+        "./prd-to-issues",
+        "./prd-to-plan",
+        "./request-refactor-plan",
+        "./scaffold-exercises",
+        "./setup-pre-commit",
+        "./tdd",
+        "./triage-issue",
+        "./ubiquitous-language",
+        "./write-a-prd",
+        "./write-a-skill"
+      ]
+    }
+  ]
+}
